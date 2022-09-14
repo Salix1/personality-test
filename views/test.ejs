@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Тест</title>
+</head>
+<body>
+  <form action="/results" target="_blank" method="POST">
+    <div class="question-wrapper">
+      <h1><%= qH[0] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-1" value="a" class="radiobtn" id="radio-1">
+        <label for="radio-1"><%= r1L[0] %></label>
+        <input type="radio" name="answer-1" value="b" class="radiobtn radiobtn-second" id="radio-2">
+        <label for="radio-2"><%= r2L[0] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[1] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-2" value="a" class="radiobtn" id="radio-3">
+        <label for="radio-3"><%= r1L[1] %></label>
+        <input type="radio" name="answer-2" value="b" class="radiobtn radiobtn-second" id="radio-4">
+        <label for="radio-4"><%= r2L[1] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[2] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-3" value="a" class="radiobtn" id="radio-5">
+        <label for="radio-5"><%= r1L[2] %></label>
+        <input type="radio" name="answer-3" value="b" class="radiobtn radiobtn-second" id="radio-6">
+        <label for="radio-6"><%= r2L[2] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[3] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-4" value="a" class="radiobtn" id="radio-7">
+        <label for="radio-7"><%= r1L[3] %></label>
+        <input type="radio" name="answer-4" value="b" class="radiobtn radiobtn-second" id="radio-8">
+        <label for="radio-8"><%= r2L[3] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[4] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-5" value="a" class="radiobtn" id="radio-9">
+        <label for="radio-9"><%= r1L[4] %></label>
+        <input type="radio" name="answer-5" value="b" class="radiobtn radiobtn-second" id="radio-10">
+        <label for="radio-10"><%= r2L[4] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[5] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-6" value="a" class="radiobtn" id="radio-11">
+        <label for="radio-11"><%= r1L[5] %></label>
+        <input type="radio" name="answer-6" value="b" class="radiobtn radiobtn-second" id="radio-12">
+        <label for="radio-12"><%= r2L[5] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[6] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-7" value="a" class="radiobtn" id="radio-13">
+        <label for="radio-13"><%= r1L[6] %></label>
+        <input type="radio" name="answer-7" value="b" class="radiobtn radiobtn-second" id="radio-14">
+        <label for="radio-14"><%= r2L[6] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[7] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-8" value="a" class="radiobtn" id="radio-15">
+        <label for="radio-15"><%= r1L[7] %></label>
+        <input type="radio" name="answer-8" value="b" class="radiobtn radiobtn-second" id="radio-16">
+        <label for="radio-16"><%= r2L[7] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[8] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-9" value="a" class="radiobtn" id="radio-17">
+        <label for="radio-17"><%= r1L[8] %></label>
+        <input type="radio" name="answer-9" value="b" class="radiobtn radiobtn-second" id="radio-18">
+        <label for="radio-18"><%= r2L[8] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[9] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-10" value="a" class="radiobtn" id="radio-19">
+        <label for="radio-19"><%= r1L[9] %></label>
+        <input type="radio" name="answer-10" value="b" class="radiobtn radiobtn-second" id="radio-20">
+        <label for="radio-20"><%= r2L[9] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[10] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-11" value="a" class="radiobtn" id="radio-21">
+        <label for="radio-21"><%= r1L[10] %></label>
+        <input type="radio" name="answer-11" value="b" class="radiobtn radiobtn-second" id="radio-22">
+        <label for="radio-22"><%= r2L[10] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[11] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-12" value="a" class="radiobtn" id="radio-23">
+        <label for="radio-23"><%= r1L[11] %></label>
+        <input type="radio" name="answer-12" value="b" class="radiobtn radiobtn-second" id="radio-24">
+        <label for="radio-24"><%= r2L[11] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[12] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-13" value="a" class="radiobtn" id="radio-25">
+        <label for="radio-25"><%= r1L[12] %></label>
+        <input type="radio" name="answer-13" value="b" class="radiobtn radiobtn-second" id="radio-26">
+        <label for="radio-26"><%= r2L[12] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[13] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-14" value="a" class="radiobtn" id="radio-27">
+        <label for="radio-27"><%= r1L[13] %></label>
+        <input type="radio" name="answer-14" value="b" class="radiobtn radiobtn-second" id="radio-28">
+        <label for="radio-28"><%= r2L[13] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[14] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-15" value="a" class="radiobtn" id="radio-29">
+        <label for="radio-29"><%= r1L[14] %></label>
+        <input type="radio" name="answer-15" value="b" class="radiobtn radiobtn-second" id="radio-30">
+        <label for="radio-30"><%= r2L[14] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[15] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-16" value="a" class="radiobtn" id="radio-31">
+        <label for="radio-31"><%= r1L[15] %></label>
+        <input type="radio" name="answer-16" value="b" class="radiobtn radiobtn-second" id="radio-32">
+        <label for="radio-32"><%= r2L[15] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[16] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-17" value="a" class="radiobtn" id="radio-33">
+        <label for="radio-33"><%= r1L[16] %></label>
+        <input type="radio" name="answer-17" value="b" class="radiobtn radiobtn-second" id="radio-34">
+        <label for="radio-34"><%= r2L[16] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[17] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-18" value="a" class="radiobtn" id="radio-35">
+        <label for="radio-35"><%= r1L[17] %></label>
+        <input type="radio" name="answer-18" value="b" class="radiobtn radiobtn-second" id="radio-36">
+        <label for="radio-36"><%= r2L[17] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[18] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-19" value="a" class="radiobtn" id="radio-37">
+        <label for="radio-37"><%= r1L[18] %></label>
+        <input type="radio" name="answer-19" value="b" class="radiobtn radiobtn-second" id="radio-38">
+        <label for="radio-38"><%= r2L[18] %></label>
+      </div>
+    </div>
+    <div class="question-wrapper hidden">
+      <h1><%= qH[19] %></h1>
+      <div class="answers-wrapper">
+        <input type="radio" name="answer-20" value="a" class="radiobtn" id="radio-39">
+        <label for="radio-39"><%= r1L[19] %></label>
+        <input type="radio" name="answer-20" value="b" class="radiobtn radiobtn-second" id="radio-40">
+        <label for="radio-40"><%= r2L[19] %></label>
+      </div>
+    </div>
+    <h1 class='end-header hidden loading-anim'>Конец</h1>
+    <button type="submit" class="btn hidden loading-anim">Завершить тест</button>
+  </form>  
+  <button disabled class="btn">Далее</button>  
+  </div>
+</body>
+<script src="js/test-script.js"></script>
+</html>

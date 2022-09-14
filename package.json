@@ -1,0 +1,18 @@
+{
+  "name": "uni_practice",
+  "version": "1.0.0",
+  "description": "Производственная практика группы 18-ИТ-ПИП на 5-6 семестры",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nocache": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Александр Иванов",
+  "license": "ISC"
+}
